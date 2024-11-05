@@ -16,7 +16,7 @@ A simple web navigation tool with history tracking, built in C, that allows user
 
    ```bash
    git clone https://github.com/AbdelhakDouiba/historyNavigator.git
-   cd your-repo-name
+   cd historyNavigator
    ```
     
     
