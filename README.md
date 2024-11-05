@@ -1,6 +1,6 @@
 # Navigator History Tracker
 
-A simple web navigation tool with history tracking, built in C, that allows users to navigate pages and manage their browsing history. This project includes back and forward navigation functionality, enabling easy exploration of previously visited pages.
+A simple navigation tool with history tracking, built in C, that allows users to navigate pages and manage their browsing history. This project includes back and forward navigation functionality, enabling easy exploration of previously visited pages.
 
 
 ## Features
