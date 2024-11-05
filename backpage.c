@@ -10,17 +10,10 @@ void backPage(Dstack *backStack, Dstack *forwardStack)
 {
     if (!isEmpty(backStack) && backStack->top->next != NULL)
     {
-        if (backStack->top->next == NULL)
-            printf("There is no Previous page !\n");
-        else
-        {
-            printf("Welcome in -> %s\n", backStack->top->next->pagename);
-            push(forwardStack, backStack->top->pagename);
-            pop(backStack);
-        }
+        printf("Welcome in -> %s\n", backStack->top->next->pagename);
+        push(forwardStack, backStack->top->pagename);
+        pop(backStack);
     }
     else
-    {
         printf("There is no Previous page !\n");
-    }
 }
